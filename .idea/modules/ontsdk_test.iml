@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="Common (experimental) " useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/test" />
+          <option name="classpath" value="$MODULE_DIR$/../../build/classes/java/main:/Users/litao/ONTKotlinSDK/build/classes/kotlin/main:/Users/litao/ONTKotlinSDK/build/resources/main:/Users/litao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.31/16a11d2e7825c80df61a3135e64c1b091f1f67fd/kotlin-test-annotations-common-1.2.31.jar:/Users/litao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.2.31/e85fec05d7784f548f28972905d2cbe9accc8f31/kotlin-test-common-1.2.31.jar:/Users/litao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.31/e22f9822e5d29b076a913c2551b169926ae12c53/kotlin-stdlib-common-1.2.31.jar:/Users/litao/ONTKotlinSDK/build/classes/kotlin/main" />
+          <option name="languageVersion" value="1.2" />
+          <option name="apiVersion" value="1.2" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>

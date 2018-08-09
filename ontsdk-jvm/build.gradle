@@ -1,0 +1,32 @@
+buildscript {
+    ext.kotlin_version = '1.2.31'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+apply plugin: 'kotlin-platform-jvm'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    expectedBy project(":")
+    testCompile "junit:junit:4.12"
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+    testCompile "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
+    compile 'io.github.novacrypto:BIP39:0.1.9'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'org.bouncycastle:bcprov-jdk15on:1.59'
+    compile 'com.alibaba:fastjson:1.2.9'
+    testCompile 'junit:junit:4.12'
+
+
+
+}
